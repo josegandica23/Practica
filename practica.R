@@ -1,10 +1,10 @@
-#creación de vectores según argumentos
+#creaci?n de vectores seg?n argumentos
 # tipo de argumento(longitud)
 numeric(2)
 character(4)
 logical(3)
 
-#Utilización de la función Repeat y Break
+#Utilizaci?n de la funci?n Repeat y Break
 repeat{
   if(x<13){
     print("hello")
@@ -17,7 +17,7 @@ repeat{
   
 }
 
-#utilización de la función Next , para saltar a la siguiente instrucción
+#utilizaci?n de la funci?n Next , para saltar a la siguiente instrucci?n
   for(x in 1:13){
     if(x<=10){
       x <- x+1
@@ -28,8 +28,8 @@ repeat{
     x <- x+1
   }
 
-#Función que arroja los promedios de las columnas de una tabla de datos.
-#removeNA instrucciona la omisión de valores de error NA de la tabla de datos.
+#Funci?n que arroja los promedios de las columnas de una tabla de datos.
+#removeNA instrucciona la omisi?n de valores de error NA de la tabla de datos.
 columnmean <- function(y, removeNA=TRUE){
           nc <- ncol(y)
           means <- numeric(nc)
